@@ -11,7 +11,11 @@ export const AboutSection = () => {
                     <div className="space-y-6 card-hover px-8 py-6 rounded-xl bg-primary/10">
                         <h3 className="text-2xl font-semibold underline">Personal</h3>
                         <p className="text-muted-foreground text-left">
-                            A little about me, I'm a soon-to-be graduate from the University of California San Diego with a degree in Mathematics with an emphasis in Computer Science. Originally from Santa Clrita, I'm passionate about leveraging my skills to solve complex problems and create innovative solutions. When I'm not immersed in code, you'll probably find me playing soccer, tinkering with the piano, or enjoying time outdoors. I love balancing my technical side with creativity and staying active. As I prepare to take the next step in my career, I'm excited to bring my background in math and CS into real-world applications, while continuing to learn and grow.
+                            I'm a soon-to-be graduate from the University of California, San Diego, earning a degree in Mathematics with an emphasis in Computer Science. Originally from Santa Clarita, I’m driven by a passion for solving complex problems and developing innovative, user-focused solutions.
+
+                            My background combines analytical thinking with a strong foundation in software development, allowing me to approach challenges from both a logical and creative perspective. Outside of tech, I enjoy staying active through soccer, exploring music on the piano, and spending time outdoors—activities that keep me balanced and energized.
+
+                            As I look ahead to the next step in my professional journey, I'm excited to apply my skills in real-world settings, contribute to meaningful projects, and continue growing as a developer and problem solver.
                         </p>
                          <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                             <a href="#contact" className="cosmic-button">
@@ -24,7 +28,11 @@ export const AboutSection = () => {
                     <div className="space-y-6 card-hover px-8 py-6 rounded-xl bg-primary/10">
                         <h3 className="text-2xl font-semibold underline">Skills</h3>
                         <p className="text-muted-foreground text-left">
-                            I have a strong foundation in both front-end and back-end development. On the front-end, I'm proficient in building dynamic and responsive web applications using React, JavaScript, HTML, and CSS. I enjoy crafting clean, user-friendly interfaces that provide an intuitive experience. On the back-end, I'm well-versed in Python and its powerful libraries like NumPy, Pandas, scikit-learn, and Matplotlib, which I use to analyze data and build machine learning models. I also have experience with C++. My diverse skill set enables me to take on full-stack development projects and solve complex challenges across various domains.
+                           I bring a strong foundation in both front-end and back-end development, with a focus on building scalable, user-centered web applications. On the front end, I specialize in creating responsive and dynamic interfaces using React, JavaScript, HTML, and CSS. I take pride in writing clean, maintainable code that enhances user experience and accessibility.
+
+                            On the back end, I’m proficient in Python and its ecosystem of powerful libraries—including NumPy, Pandas, scikit-learn, and Matplotlib—which I use for data analysis, visualization, and developing machine learning models. I also have experience with C++, adding to my versatility across different technical stacks.
+
+                            This diverse skill set enables me to contribute effectively to full-stack development projects, tackle complex problems, and deliver practical solutions across a range of domains.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                             <a href="#projects" className="cosmic-button">
