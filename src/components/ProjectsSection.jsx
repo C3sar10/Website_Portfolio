@@ -3,11 +3,11 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
     {
         id: 1,
-        title: "To-do List App",
-        description: "A interactive web application for people to use to set up to do lists for their everyday activities.",
-        image: "/projects/project1.png",
-        demoURL: "https://to-do-list-app-flax-ten.vercel.app/",
-        gitHub: "https://github.com/C3sar10/To-do-list-app"
+        title: "Landing Page",
+        description: "A nice and sleek landing page made from the design of a template I found.",
+        image: "/projects/project3.png",
+        demoURL: "https://c3sar10.github.io/clever-hero-practice/",
+        gitHub: "https://github.com/C3sar10/clever-hero-practice"
     },
     {
         id: 2,
@@ -19,11 +19,11 @@ const projects = [
     },
     {
         id: 3,
-        title: "Landing Page",
-        description: "A nice and sleek landing page made from the design of a template I found.",
-        image: "/projects/project3.png",
-        demoURL: "https://c3sar10.github.io/clever-hero-practice/",
-        gitHub: "https://github.com/C3sar10/clever-hero-practice"
+        title: "Omelete Recipe Page",
+        description: "A interactive web application for people to use to set up to do lists for their everyday activities.",
+        image: "/projects/project1.png",
+        demoURL: "https://c3sar10.github.io/Omelet_Recipe/",
+        gitHub: "https://github.com/C3sar10/Omelet_Recipe"
     }
 ]
 
