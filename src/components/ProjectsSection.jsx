@@ -3,11 +3,11 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
     {
         id: 1,
-        title: "Landing Page",
-        description: "A nice and sleek landing page made from a design of a template I found.",
+        title: "LASC Soccer Club Website",
+        description: "Collaborated on developing a modern, responsive website for a local soccer club, enhancing their online presence and community engagement.",
         image: "/projects/project3.png",
-        demoURL: "https://c3sar10.github.io/clever-hero-practice/",
-        gitHub: "https://github.com/C3sar10/clever-hero-practice"
+        demoURL: "https://lasc-website.vercel.app",
+        gitHub: "https://github.com/fperezfrancisco/lasc-website?tab=readme-ov-file#readme"
     },
     {
         id: 2,
@@ -19,11 +19,11 @@ const projects = [
     },
     {
         id: 3,
-        title: "Omelete Recipe Page",
-        description: "A responsive omelete recipe page made from a design of a template I found.",
-        image: "/projects/project1.png",
-        demoURL: "https://c3sar10.github.io/Omelet_Recipe/",
-        gitHub: "https://github.com/C3sar10/Omelet_Recipe"
+        title: "Landing Page",
+        description: "A responsive landing page made from a design template",
+        image: "/projects/project4.png",
+        demoURL: "https://c3sar10.github.io/clever-hero-practice/",
+        gitHub: "https://github.com/C3sar10/clever-hero-practice"
     }
 ]
 
