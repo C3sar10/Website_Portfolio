@@ -12,7 +12,7 @@ export const HeroSection = () => {
                         </h1>
 
                         <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                            I&apos;m a full stack developer with a passion for building responsive, dynamic web applications from the ground up. I enjoy designing intuitive user experiences and developing the robust back-end systems that bring them to life.
+                            I&apos;m a full-stack developer with a strong focus on creating responsive, high-performance web applications from the ground up. I enjoy building clean, intuitive interfaces and developing the scalable systems that power them.
                         </p>
 
                         <div className="pt-4 opacity-0 animate-fade-in-delay-4">

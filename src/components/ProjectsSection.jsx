@@ -4,26 +4,26 @@ const projects = [
     {
         id: 1,
         title: "LASC Soccer Club Website",
-        description: "Collaborated on developing a modern, responsive website for a local soccer club, enhancing their online presence and community engagement.",
+        description: "Responsive club website built with Next.js and Strapi CMS, allowing easy content management and optimized community engagement.",
         image: "/projects/project3.png",
         demoURL: "https://lasc-website.vercel.app",
-        gitHub: "https://github.com/fperezfrancisco/lasc-website?tab=readme-ov-file#readme"
+        gitHub: "https://github.com/fperezfrancisco/lasc-website"
     },
     {
         id: 2,
-        title: "Wordle Clone",
-        description: "A fun make on the popular word game 'Wordle' from the New York Times.",
+        title: "Fit Forge",
+        description: 'Full-stack fitness app built with Next.js, TypeScript, and Firebase, featuring workout tracking, progress dashboards, and responsive design. (Use "test@gmail.com" for email and "test123" as password for demo).',
         image: "/projects/project2.png",
-        demoURL: "https://c3sar10.github.io/Wordle_Game_Clone/",
-        gitHub: "https://github.com/C3sar10/Wordle_Game_Clone"
+        demoURL: "https://fit-forge-drab.vercel.app/auth",
+        gitHub: "https://github.com/C3sar10/FIT-FORGE"
     },
     {
         id: 3,
-        title: "Landing Page",
-        description: "A responsive landing page made from a design template",
+        title: "Youtube Clone",
+        description: "Full-stack video platform built with Next.js, TypeScript, and Firebase, featuring GCP integration, authentication, and responsive UI. (Not hosted yet, coming soon!)",
         image: "/projects/project4.png",
-        demoURL: "https://c3sar10.github.io/clever-hero-practice/",
-        gitHub: "https://github.com/C3sar10/clever-hero-practice"
+        // demoURL: "",
+        gitHub: "https://github.com/C3sar10/Youtube-Clone"
     }
 ]
 
@@ -37,20 +37,26 @@ export const ProjectsSection = () => {
                     Here are some of my recent projects I have done for you to take a look at: 
                 </p>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-between">
                     {projects.map((project, key) => (
                         <div key={key} className="group bg-card/15 rounded-xl overflow-hidden shadow-xs card-hover">
                              
                             <div className="h-48 overflow-hidden">
-                                <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 hover:cursor-pointer"/>
+                                <img src={project.image} alt={project.title} className="w-full h-full object-fit transition-transform duration-500 group-hover:scale-101 hover:cursor-pointer"/>
                             </div>
-                            <div className="p-2">
+                            <div className="p-2 flex flex-col">
                                 <h3 className="text-xl font-semibold py-10 underline">{project.title}</h3>
                                 <p className="text-left text-muted-foreground text-sm mb-4">{project.description}</p>
                                 <div className="flex justify-between items-center">
                                     <div className="flex space-x-3">
-                                        <a href={project.demoURL} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300"> <ExternalLink size={20}/></a>
-                                        <a href={project.gitHub} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300"> <Github size={20}/></a>
+                                        {project.demoURL ? (
+                                        <>
+                                            <a href={project.demoURL} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300"> <ExternalLink size={20}/></a>
+                                            <a href={project.gitHub} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300"> <Github size={20}/></a>
+                                        </>
+                                        ) : (
+                                            <a href={project.gitHub} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300"> <Github size={20}/></a>
+                                        )}
                                     </div>
                                 </div>
                             </div>
