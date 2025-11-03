@@ -8,7 +8,7 @@ import { Footer } from "../components/Footer";
 
 export const Home = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background from-10% via-zinc-600 via-65% to-background to-85% text-foreground overflow-x-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-background from-10% via-zinc-600 via-65% to-background to-90% text-foreground overflow-x-hidden">
       {/* Background Effects */}
       {/* <StarBackground /> */}
       {/* Navbar */}
