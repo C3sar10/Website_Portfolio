@@ -24,8 +24,8 @@ export const Navbar = () => {
   return (
     <nav
       className={cn(
-        "fixed w-full z-40 transition-all duration-300",
-        isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : "py-5"
+        "fixed w-full h-14 z-40 transition-all duration-300",
+        isScrolled ? "py-3 opacity-80 backdrop-blur-md shadow-xs" : "py-5"
       )}
     >
       <div className="px-4 md:px-8 xl:px-14 flex items-center justify-between">
@@ -34,7 +34,7 @@ export const Navbar = () => {
           href="#hero"
         >
           <span className="relative z-10">
-            <span className="text-glow text-foreground"> Cesar Perez </span>{" "}
+            <span className="text-glow text-white"> Cesar Perez </span>{" "}
             Portfolio
           </span>
         </a>
@@ -45,7 +45,7 @@ export const Navbar = () => {
             <a
               key={key}
               href={item.href}
-              className="text-foreground/80 hover:text-primary transition-colors duration-300"
+              className="text-white hover:text-primary transition-colors duration-300"
             >
               {item.name}
             </a>

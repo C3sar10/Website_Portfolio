@@ -8,7 +8,7 @@ export const AboutSection = () => {
                 </h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items center">
-                    <div className="flex flex-col justify-between card-hover px-8 py-6 rounded-xl bg-primary/10">
+                    <div className="flex flex-col justify-between card-hover px-8 py-6 rounded-xl bg-blue-950/20">
                         <div className="flex flex-col gap-4 mb-2">
                             <h3 className="text-2xl font-semibold underline">Personal</h3>
                             <p className="text-muted-foreground text-left">
@@ -29,7 +29,7 @@ export const AboutSection = () => {
                         </div>
 
                     </div>
-                    <div className="flex flex-col justify-between card-hover px-8 py-6 rounded-xl bg-primary/10">
+                    <div className="flex flex-col justify-between card-hover px-8 py-6 rounded-xl bg-blue-950/20">
                         <div className="flex flex-col gap-4 mb-2">
                             <h3 className="text-2xl font-semibold underline">Skills</h3>
                             <p className="text-muted-foreground text-left">
