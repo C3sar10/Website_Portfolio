@@ -22,7 +22,7 @@ const projects = [
         title: "Youtube Clone",
         description: "Full-stack video platform built with Next.js, TypeScript, and Firebase, featuring GCP integration, authentication, and responsive UI. (Not hosted yet, coming soon!)",
         image: "/projects/project4.png",
-        // demoURL: "",
+        demoURL: "https://youtube-clone-woad-chi.vercel.app",
         gitHub: "https://github.com/C3sar10/Youtube-Clone"
     }
 ]
