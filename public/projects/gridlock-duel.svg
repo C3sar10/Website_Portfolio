@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Gridlock Duel project thumbnail</title>
+  <desc id="desc">Stylized game board with connected player nodes and real-time event lines.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="0.52" stop-color="#172554"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <g opacity="0.18" stroke="#ffffff" stroke-width="2">
+    <path d="M0 120H1200M0 240H1200M0 360H1200M0 480H1200M0 600H1200"/>
+    <path d="M160 0V720M320 0V720M480 0V720M640 0V720M800 0V720M960 0V720"/>
+  </g>
+  <g fill="none" stroke="url(#accent)" stroke-linecap="round" filter="url(#glow)">
+    <path d="M214 138C348 210 370 342 498 352S694 263 806 311s122 160 255 201" stroke-width="8" opacity="0.95"/>
+    <path d="M196 563C318 464 450 503 560 426s156-210 300-238 191 50 248 104" stroke-width="5" opacity="0.65"/>
+  </g>
+  <g fill="#0f172a" stroke="#e0f2fe" stroke-width="6">
+    <circle cx="214" cy="138" r="38"/>
+    <circle cx="498" cy="352" r="38"/>
+    <circle cx="806" cy="311" r="38"/>
+    <circle cx="1061" cy="512" r="38"/>
+    <circle cx="196" cy="563" r="30"/>
+    <circle cx="860" cy="188" r="30"/>
+  </g>
+  <g fill="#f8fafc" font-family="Inter, Arial, sans-serif">
+    <text x="76" y="112" font-size="34" font-weight="700" letter-spacing="3">SOCKET.IO</text>
+    <text x="76" y="606" font-size="82" font-weight="800">Gridlock Duel</text>
+    <text x="80" y="655" font-size="30" fill="#cbd5e1">Real-time TypeScript board game</text>
+  </g>
+  <g transform="translate(804 462)">
+    <rect width="260" height="76" rx="18" fill="#020617" opacity="0.74" stroke="#38bdf8"/>
+    <circle cx="46" cy="38" r="12" fill="#22c55e"/>
+    <text x="78" y="48" fill="#e0f2fe" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="700">Live room state</text>
+  </g>
+</svg>

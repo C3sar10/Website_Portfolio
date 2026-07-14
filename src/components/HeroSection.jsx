@@ -15,9 +15,12 @@ export const HeroSection = () => {
                             I&apos;m a full-stack developer with a strong focus on creating responsive, high-performance web applications from the ground up. I enjoy building clean, intuitive interfaces and developing the scalable systems that power them.
                         </p>
 
-                        <div className="pt-4 opacity-0 animate-fade-in-delay-4">
+                        <div className="pt-4 opacity-0 animate-fade-in-delay-4 flex flex-col sm:flex-row items-center justify-center gap-4">
                             <a href="#projects" className="cosmic-button">
                                 View my Projects
+                            </a>
+                            <a href="/Cesar_Perez_Resume_Developer.pdf" target="_blank" rel="noreferrer" className="cosmic-button">
+                                View Resume
                             </a>
                         </div>
                 </div>
